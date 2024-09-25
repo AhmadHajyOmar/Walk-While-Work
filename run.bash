@@ -1,0 +1,1 @@
+npm run watch & npm run serve && fg

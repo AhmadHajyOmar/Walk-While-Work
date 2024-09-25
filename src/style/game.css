@@ -1,0 +1,75 @@
+body{
+  text-align: center;
+}
+
+#step-visualizer {
+  width: 100%;
+  height: 100px;
+  /* background-color: black; */
+  opacity: 0;
+  transition: opacity 500ms ease;
+}
+
+#step-visualizer > img {
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#step-visualizer.blink {
+  opacity: 1;
+  transition: opacity 0ms ease;
+}
+
+#stats {
+  text-align: center;
+}
+
+#myProgress {
+  height: 0.8rem;
+  width: 40rem;
+  border-radius: 0.4rem;
+  margin-bottom: 20px;
+  margin-left: 500px;
+  background: rgb(255, 255, 255);
+}
+
+#myBar {
+  height: 100%;
+  width: 0;
+  border-radius: 0.4rem;
+  background: #ff4754;
+  transition: width 0.4s ease;
+}
+
+.progress-span{
+  margin-left: -300px;
+  text-align: center;
+  font-family: 'Being Human', sans-serif;
+}
+
+.container {
+  padding-top: 15%;
+  padding-right: 15%;
+  text-align: center;
+  background:black;
+  font-size: 20px;
+}
+
+#gameContainer {
+  width: 512px;
+  height: 256px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+    /* background-color: black; */
+   
+}
+
+.textDisp {
+  font-family: 'Being Human', sans-serif;
+  text-align: center;
+                                                                                               
+}

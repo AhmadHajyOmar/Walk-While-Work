@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "dist",
+      "lib": ["DOM"],
+      "rootDir": "src",
+      "strict": true,
+      "sourceMap": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "noFallthroughCasesInSwitch": true,
+      "resolveJsonModule": true,
+      "noImplicitAny": false,
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules", 
+    "dist", 
+    "**/*.spec.ts"
+  ]
+}
